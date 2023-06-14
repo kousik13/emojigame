@@ -1,0 +1,108 @@
+.game-outcome-card {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffff33;
+  border: 0.1rem solid #ffffff33;
+  border-radius: 1.2rem;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.game-outcome-card-img {
+  height: 50%;
+  width: 50%;
+}
+
+.game-outcome-card-content {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-outcome-text {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 550;
+  margin-bottom: 1.5rem;
+}
+
+.game-best-score-text {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.game-score {
+  color: #6a59ff;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  letter-spacing: 0;
+}
+
+.game-best-score-text,
+.game-score,
+.play-again-button {
+  font-weight: 550;
+}
+
+@media (min-width: 768px) {
+  .game-outcome-card {
+    width: 100%;
+    flex-direction: row;
+    padding: 2rem;
+  }
+
+  .game-outcome-card-img {
+    width: 50%;
+    order: 1;
+  }
+
+  .game-outcome-card-content {
+    width: 50%;
+  }
+
+  .game-outcome-card-img,
+  .game-outcome-card-content {
+    height: 100%;
+  }
+
+  .game-outcome-text {
+    font-size: 5rem;
+    font-weight: 500;
+  }
+
+  .game-best-score-text {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .game-score {
+    font-size: 3.5rem;
+  }
+
+  .play-again-button {
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+  }
+}
